@@ -19,7 +19,6 @@ const PI = 3.14;
 PI = 1.41;
 console.log(PI);
 //output: uncaught TypeError: Assignment to constant variable at line 3  
-```
 2. use let keyword if we want to change the value of the variable.
 
 # Primitive Types
