@@ -15,6 +15,7 @@ Eg: 1. let firstName; // undefined
 # Constants
 1. If we use const keyword while initializing variable, value of the variable will not change through out the program.  
 Eg: ```
+
 const PI = 3.14;
 PI = 1.41;
 console.log(PI);
