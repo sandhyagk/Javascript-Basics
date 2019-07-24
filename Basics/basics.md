@@ -14,8 +14,8 @@ Eg: 1. let firstName; // undefined
 
 # Constants
 1. If we use const keyword while initializing variable, value of the variable will not change through out the program.  
-Eg: ```
-
+Eg:
+```
 const PI = 3.14;
 PI = 1.41;
 console.log(PI);
@@ -33,7 +33,8 @@ There are two types
 3. Boolean
 4. Undefined
 5. Null  
-Eg:```
+Eg:
+```
 let name="abc"; //String literal
      let age = 30; // Number literal
      let isApproved = true; //Boolean literal
@@ -57,7 +58,8 @@ eg: typeof lastName //output : object
 2. Array
 3. Function
 ### 1. Object:
-eg: ```
+eg: 
+```
 let person = { // object literal
  name : "abc",
 age: 30
@@ -72,7 +74,8 @@ console.log(person.age);
 * console.log(person.length); //returns number of items or elements in an array.
 ### 3. Functions
 * Functions are one of the building blocks in JS, it is basically a set of statements that performs a task or calculates and returns a value.
-eg 1: ```
+eg 1: 
+```
 function greet(name){
     console.log("hello world " + name);
 }
@@ -93,31 +96,38 @@ console.log(square(2));`
 * For, while and Do-while loops , with all these will repeat an action number of times.
 * But, for-in and for-of loops, to iterate over properties of an object or elements in an array
 ### For-in loop
-eg:1.  `const person1 = {
+eg:1.  
+```
+const person1 = {
     name : 'john',
     age : 20
 }
 for(let key in person1){
     console.log(key, person1[key]);
-}`
+}
 
-2. `const color = ['red','blue','black'];
+2. const color = ['red','blue','black'];
 for(let index in color){
     console.log(index,color[index]);
-}`
+}
+```
 
 ### For-of loop
 * iterate over the elements or items in an array
-eg:`const color = ['red','blue','black'];
+eg:
+```
+const color = ['red','blue','black'];
 for(let colors of color){
     console.log(colors);
-}`
+}
+```
 * Break keyword, jump out of a loop
 * Continue keyword, jump to the next iteration
 
 # Objects
 * Purpose of object is to group related variables and also function that should operate on these variables.
-eg: ```
+eg:
+```
 const circle = {
      radius : 1,
      location:{
