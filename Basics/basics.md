@@ -13,12 +13,13 @@ Eg: 1. let firstName; // undefined
     2. let firstName = "abc";
 
 # Constants
-1. If we use const keyword while initializing variable, value of the variable will not change through out the program.
-Eg: ```
+1. If we use const keyword while initializing variable, value of the variable will not change through out the program.  
+Eg: `
 const PI = 3.14;
 PI = 1.41;
 console.log(PI);
-//output: uncaught TypeError: Assignment to constant variable at line 3  
+//output: uncaught TypeError: Assignment to constant variable at line 3
+`
 2. use let keyword if we want to change the value of the variable.
 
 # Primitive Types
